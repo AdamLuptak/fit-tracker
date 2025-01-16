@@ -1,9 +1,9 @@
-package io.codething.calculators;
+package io.codething.sporttracker.domain.calculators;
 
-public class RunningCalorieCalculator implements CalorieCalculator {
+public class RunningCaloriesCalculator implements CaloriesCalculator {
     private final double weight;
 
-    public RunningCalorieCalculator(double weight) {
+    public RunningCaloriesCalculator(double weight) {
         this.weight = weight;
     }
 

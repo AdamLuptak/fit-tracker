@@ -64,11 +64,11 @@ tasks.jacocoTestReport {
     }
     classDirectories.setFrom(
         fileTree("$buildDir/classes/java/main") {
-            exclude("io/codething/App.class")
-            exclude("io/codething/ActivityFactory.class")
-            exclude("io/codething/User.class")
-            exclude("io/codething/UserService.class")
-            exclude("io/codething/Activity.class")
+            exclude("io/codething/sporttracker/App.class")
+            exclude("io/codething/sporttracker/ActivityFactory.class")
+            exclude("io/codething/sporttracker/User.class")
+            exclude("io/codething/sporttracker/UserService.class")
+            exclude("io/codething/sporttracker/Activity.class")
         }
     )
 }
@@ -78,12 +78,12 @@ tasks.jacocoTestCoverageVerification {
         rule {
             element = "CLASS"
             excludes = listOf(
-                "io.codething.App",
-                "io.codething.ActivityFactory",
-                "io.codething.User",
-                "io.codething.UserService",
-                "io.codething.Activity",
-                "io.codething.Activity.ActivityType",
+                "io.codething.sporttracker.App",
+                "io.codething.sporttracker.ActivityFactory",
+                "io.codething.sporttracker.User",
+                "io.codething.sporttracker.UserService",
+                "io.codething.sporttracker.Activity",
+                "io.codething.sporttracker.Activity.ActivityType",
             )
             limit {
                 minimum = "0.80".toBigDecimal()

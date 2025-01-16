@@ -1,14 +1,15 @@
-package io.codething.calculators;
+package io.codething.sporttracker.calculators;
 
+import io.codething.sporttracker.domain.calculators.RunningCaloriesCalculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RunningCalorieCalculatorTest {
+class RunningCaloriesCalculatorTest {
 
     @Test
     void shouldCalculateCalories() {
-        var calculator = new RunningCalorieCalculator(70); // weight in kg
+        var calculator = new RunningCaloriesCalculator(70); // weight in kg
 
         var caloriesBurned = calculator.calculateCalories(30, 5); // 30 minutes, 5 km
         assertEquals(420, caloriesBurned, 0.1);

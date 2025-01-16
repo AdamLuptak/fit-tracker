@@ -1,7 +1,7 @@
-package io.codething.calculators;
+package io.codething.sporttracker.domain.calculators;
 
 
-public record BMRCalorieModifier (double bmr) implements CalorieModifier {
+public record BMRCaloriesModifier(double bmr) implements CaloriesModifier {
 
     @Override
     public double modify(double baseCalories, double duration, double distance) {
