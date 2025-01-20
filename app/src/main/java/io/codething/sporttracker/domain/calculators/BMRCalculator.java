@@ -1,10 +1,10 @@
 package io.codething.sporttracker.domain.calculators;
 
 
-import io.codething.sporttracker.domain.entities.User;
+import io.codething.sporttracker.domain.User;
 
-import static io.codething.sporttracker.domain.entities.User.Gender.FEMALE;
-import static io.codething.sporttracker.domain.entities.User.Gender.MALE;
+import static io.codething.sporttracker.domain.User.Gender.FEMALE;
+import static io.codething.sporttracker.domain.User.Gender.MALE;
 
 public class BMRCalculator {
 

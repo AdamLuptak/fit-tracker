@@ -1,9 +1,9 @@
 package io.codething.sporttracker.domain.factories;
 
 import io.codething.sporttracker.domain.calculators.CaloriesModifier;
-import io.codething.sporttracker.domain.entities.Activity;
-import io.codething.sporttracker.domain.entities.User;
-import io.codething.sporttracker.domain.valueobjects.ActivityType;
+import io.codething.sporttracker.domain.Activity;
+import io.codething.sporttracker.domain.User;
+import io.codething.sporttracker.domain.ActivityType;
 import io.codething.sporttracker.shared.IdGenerator;
 
 import java.time.Duration;

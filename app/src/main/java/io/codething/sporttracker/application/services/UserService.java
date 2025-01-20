@@ -1,7 +1,7 @@
 package io.codething.sporttracker.application.services;
 
 import io.codething.sporttracker.domain.calculators.CaloriesModifier;
-import io.codething.sporttracker.domain.valueobjects.ActivityType.ActivityName;
+import io.codething.sporttracker.domain.ActivityType.ActivityName;
 import io.codething.sporttracker.infrastructure.repositories.CaloriesModifierConfigRepository;
 
 import java.util.List;

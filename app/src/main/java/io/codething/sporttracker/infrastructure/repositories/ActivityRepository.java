@@ -1,6 +1,6 @@
 package io.codething.sporttracker.infrastructure.repositories;
 
-import io.codething.sporttracker.domain.entities.Activity;
+import io.codething.sporttracker.domain.Activity;
 
 import java.util.ArrayList;
 import java.util.List;

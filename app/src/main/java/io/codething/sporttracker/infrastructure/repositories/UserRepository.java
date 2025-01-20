@@ -1,6 +1,6 @@
 package io.codething.sporttracker.infrastructure.repositories;
 
-import io.codething.sporttracker.domain.entities.User;
+import io.codething.sporttracker.domain.User;
 
 import java.util.HashMap;
 import java.util.List;

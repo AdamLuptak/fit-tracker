@@ -6,7 +6,7 @@ import io.codething.sporttracker.application.services.ActivityTrackerService;
 import io.codething.sporttracker.domain.calculators.BMRCalculator;
 import io.codething.sporttracker.domain.calculators.BMRCaloriesModifier;
 import io.codething.sporttracker.domain.calculators.CaloriesModifier;
-import io.codething.sporttracker.domain.entities.User;
+import io.codething.sporttracker.domain.User;
 import io.codething.sporttracker.domain.factories.ActivityFactory;
 import io.codething.sporttracker.domain.factories.ActivityTypeFactory;
 import io.codething.sporttracker.infrastructure.repositories.ActivityRepository;
@@ -20,11 +20,11 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.List;
 
-import static io.codething.sporttracker.domain.entities.User.Gender.FEMALE;
-import static io.codething.sporttracker.domain.entities.User.Gender.MALE;
-import static io.codething.sporttracker.domain.valueobjects.ActivityType.ActivityName.RUNNING;
-import static io.codething.sporttracker.domain.valueobjects.ActivityType.ActivityName.SWIMMING;
-import static io.codething.sporttracker.domain.valueobjects.ActivityType.ActivityName.WALKING;
+import static io.codething.sporttracker.domain.User.Gender.FEMALE;
+import static io.codething.sporttracker.domain.User.Gender.MALE;
+import static io.codething.sporttracker.domain.ActivityType.ActivityName.RUNNING;
+import static io.codething.sporttracker.domain.ActivityType.ActivityName.SWIMMING;
+import static io.codething.sporttracker.domain.ActivityType.ActivityName.WALKING;
 
 
 public class Application {

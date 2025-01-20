@@ -4,8 +4,8 @@ import io.codething.sporttracker.domain.calculators.CaloriesCalculator;
 import io.codething.sporttracker.domain.calculators.RunningCaloriesCalculator;
 import io.codething.sporttracker.domain.calculators.SwimmingCaloriesCalculator;
 import io.codething.sporttracker.domain.calculators.WalkingCaloriesCalculator;
-import io.codething.sporttracker.domain.entities.User;
-import io.codething.sporttracker.domain.valueobjects.ActivityType;
+import io.codething.sporttracker.domain.User;
+import io.codething.sporttracker.domain.ActivityType;
 
 import java.util.HashMap;
 import java.util.Map;

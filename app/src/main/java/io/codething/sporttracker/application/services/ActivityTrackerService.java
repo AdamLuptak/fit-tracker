@@ -1,11 +1,11 @@
 package io.codething.sporttracker.application.services;
 
-import io.codething.sporttracker.domain.entities.Activity;
+import io.codething.sporttracker.domain.Activity;
 import io.codething.sporttracker.domain.exceptions.UserNotFoundException;
 import io.codething.sporttracker.domain.factories.ActivityFactory;
 import io.codething.sporttracker.domain.factories.ActivityTypeFactory;
-import io.codething.sporttracker.domain.valueobjects.ActivityType;
-import io.codething.sporttracker.domain.valueobjects.ActivityType.ActivityName;
+import io.codething.sporttracker.domain.ActivityType;
+import io.codething.sporttracker.domain.ActivityType.ActivityName;
 import io.codething.sporttracker.infrastructure.repositories.ActivityRepository;
 import io.codething.sporttracker.infrastructure.repositories.UserRepository;
 import io.codething.sporttracker.shared.IdGenerator;

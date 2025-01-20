@@ -1,6 +1,4 @@
-package io.codething.sporttracker.domain.entities;
-
-import io.codething.sporttracker.domain.valueobjects.ActivityType;
+package io.codething.sporttracker.domain;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

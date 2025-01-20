@@ -1,4 +1,4 @@
-package io.codething.sporttracker.domain.valueobjects;
+package io.codething.sporttracker.domain;
 
 import io.codething.sporttracker.domain.calculators.CaloriesCalculator;
 
