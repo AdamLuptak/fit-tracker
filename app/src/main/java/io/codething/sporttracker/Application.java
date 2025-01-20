@@ -58,7 +58,7 @@ public class Application {
 
             // reporting
             activityReportingService.printAll();
-
+            LOGGER.info("----");
             // changing config
             userConfigService.upsertCaloriesModifiers(alice.id(),WALKING, Collections.emptyList());
             activityTrackerService.addActivity(alice.id(), WALKING,  Duration.ofMinutes(30), 5);

@@ -31,7 +31,7 @@ public class ActivityReportingService {
                 LOGGER.info("No activities found for user: {}", user.id());
             } else {
                 for (var activity : activities) {
-                    LOGGER.info("Activity: {}, Duration: {}, Distance: {}, Calories: {}", activity.type(), activity.duration(), activity.distance(), activity.calories());
+                    LOGGER.info("Activity: {}, Duration: {}, Distance: {}, BaseCalories: {}, Calories: {}", activity.type(), activity.duration(), activity.distance(), activity.baseCalories(), activity.calories());
                 }
             }
         }

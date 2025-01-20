@@ -9,6 +9,7 @@ public record Activity(
     ActivityType.ActivityName type,
     Duration duration,
     LocalDateTime date,
+    double baseCalories,
     double calories,
     double distance
 ) {

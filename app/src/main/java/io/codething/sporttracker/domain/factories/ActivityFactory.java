@@ -29,7 +29,7 @@ public class ActivityFactory {
                                        modifier) -> modifier.modify(calories, duration.toMinutes(), distance),
                         (a, b) -> a);
 
-        return new Activity(id, user.id(), type.name(), duration, date, finalCalories, distance);
+        return new Activity(id, user.id(), type.name(), duration, date, baseCalories, finalCalories, distance);
     }
 
 }
