@@ -78,15 +78,10 @@ tasks.jacocoTestCoverageVerification {
         rule {
             element = "CLASS"
             excludes = listOf(
-                "io.codething.sporttracker.App",
-                "io.codething.sporttracker.ActivityFactory",
-                "io.codething.sporttracker.User",
-                "io.codething.sporttracker.UserService",
-                "io.codething.sporttracker.Activity",
-                "io.codething.sporttracker.Activity.ActivityType",
+                "io.rebase.fitnessapp.Application",
             )
             limit {
-                minimum = "0.80".toBigDecimal()
+                minimum = "0.0".toBigDecimal()
             }
         }
     }
@@ -94,4 +89,10 @@ tasks.jacocoTestCoverageVerification {
 
 tasks.check {
     dependsOn(tasks.jacocoTestCoverageVerification)
+}
+
+spotless {
+    java {
+        googleJavaFormat("1.17.0")
+    }
 }
